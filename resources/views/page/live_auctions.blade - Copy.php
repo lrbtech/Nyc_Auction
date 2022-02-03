@@ -130,7 +130,7 @@ font-size: 35px;
     // Enable pusher logging - don't include this in production
     Pusher.logToConsole = true;
 
-    var pusher = new Pusher('21f77edf77b168e9187d', {
+    var pusher = new Pusher('3c1ff3765990f4a5c9f1', {
       cluster: 'ap2'
     });
 

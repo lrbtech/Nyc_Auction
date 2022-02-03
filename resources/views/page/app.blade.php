@@ -179,9 +179,8 @@ ul.impl_header_icons li span{
                                 @if(\Auth::check())
                                   <li>
                                   <p>Welcome {{\Auth::user()->name}}</p>
-                                    <a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();"> <span class="login-text" style="margin-top: -17px;">Logout</span>  
-                                        <i class="fa fa-sign-out" aria-hidden="true" style="position: absolute;
-    top: 24px;"></i>
+                                    <a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();"> <span class="login-text" style="margin-top: -17px;margin-left:20px;">Logout</span>  
+                                        <i class="fa fa-sign-out" aria-hidden="true" style="position: absolute;top: 24px;"></i>
                                     </a>
                                       <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                             @csrf

@@ -219,7 +219,7 @@ var x = setInterval(function() {
     // function pusher_call(){
       Pusher.logToConsole = true;
     // var channel_name = $('#channel_name').val();
-        var pusher = new Pusher('21f77edf77b168e9187d', {
+        var pusher = new Pusher('3c1ff3765990f4a5c9f1', {
       cluster: 'ap2'
     });
 
